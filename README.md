@@ -1,7 +1,10 @@
-This is a pre-release Caffe branch for fully convolutional networks. This includes unmerged PRs and no guarantees.
+This Caffe branch implements fully convolutional networks and Deconvolutional Networks for labeling of aerial imagery. 
 
-Everything here is subject to change, including the history of this branch.
+This merges the following three branches of Caffe:
 
-Consider PR #2016 for reducing memory usage.
+https://github.com/mitmul/caffe (For labeling of aerial imagery)
 
-See `future.sh` for details.
+https://github.com/longjon/caffe/tree/future (For Fully Convolutional Networks with FCN-16 and FCN-8)
+
+https://github.com/HyeonwooNoh/caffe (For the implementation of Deconvolutional Networks)
+
